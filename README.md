@@ -28,13 +28,13 @@ Project sengaja tidak berada di OneDrive agar `vendor`, `node_modules`, dan file
 PHP 8.4 dan MySQL 8.4 dapat dipasang terpisah dari XAMPP. Untuk pengembangan awal, `.env` lokal dapat memakai SQLite.
 
 ```powershell
-composer install
+.\tools\composer84.ps1 install
 npm ci
 Copy-Item .env.example .env
-php artisan key:generate
-php artisan migrate --seed
+.\tools\php84.ps1 artisan key:generate
+.\tools\php84.ps1 artisan migrate --seed
 npm run build
-php artisan serve
+.\tools\php84.ps1 artisan serve
 ```
 
 Buka `http://127.0.0.1:8000`.
@@ -42,8 +42,10 @@ Buka `http://127.0.0.1:8000`.
 Untuk menjalankan server, queue, log, dan Vite secara bersamaan:
 
 ```powershell
-composer run dev
+.\tools\composer84.ps1 run dev
 ```
+
+XAMPP memiliki PHP 8.2 dan mungkin tetap menjadi `php` default di PATH. Script `tools/php84.ps1` dan `tools/composer84.ps1` memastikan perintah project memakai PHP 8.4. Setelah terminal/VS Code dibuka ulang, Anda juga dapat mengganti PATH PHP secara permanen melalui pengaturan user.
 
 Admin lokal dibuat oleh `AdminSeeder` hanya jika `ADMIN_EMAIL` dan `ADMIN_PASSWORD` diisi pada `.env`. Jangan pernah commit password tersebut.
 
