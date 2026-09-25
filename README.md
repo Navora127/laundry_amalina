@@ -27,6 +27,14 @@ Project sengaja tidak berada di OneDrive agar `vendor`, `node_modules`, dan file
 
 PHP 8.4 dan MySQL 8.4 dapat dipasang terpisah dari XAMPP. Untuk pengembangan awal, `.env` lokal dapat memakai SQLite.
 
+MySQL 8.4 native untuk project ini dikonfigurasi di port `3307` agar tidak berbenturan dengan XAMPP. Setelah PC dinyalakan ulang, jalankan:
+
+```powershell
+.\tools\mysql-start.ps1
+```
+
+Konfigurasi lokal yang berisi password tidak di-commit. Salin `tools/mysql.ini.example` menjadi `tools/mysql.ini` jika project dipindahkan. Untuk production, daemon MySQL harus dijalankan sebagai Windows service dengan user khusus yang dikelola sistem, bukan melalui script ini.
+
 ```powershell
 .\tools\composer84.ps1 install
 npm ci

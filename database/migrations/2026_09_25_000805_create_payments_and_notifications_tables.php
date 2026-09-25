@@ -39,7 +39,7 @@ return new class extends Migration
         Schema::create('wa_logs', function (Blueprint $table) {
             $table->id();
             $table->foreignId('order_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('user_id')->constrained()->nullOnDelete();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
             $table->string('channel', 30)->default('wa_manual');
             $table->string('phone_e164', 20);
             $table->text('message');

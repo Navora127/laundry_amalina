@@ -1,0 +1,17 @@
+[mysqld]
+basedir=C:/Program Files/MySQL/MySQL Server 8.4
+datadir=C:/Projects/LaundryKu/storage/mysql/data
+port=3307
+bind-address=127.0.0.1
+mysqlx=0
+skip-name-resolve
+character-set-server=utf8mb4
+collation-server=utf8mb4_0900_ai_ci
+default-time-zone=+07:00
+pid-file=C:/Projects/LaundryKu/storage/mysql/mysql.pid
+log-error=C:/Projects/LaundryKu/storage/mysql/logs/error.log
+secure-file-priv=C:/Projects/LaundryKu/storage/mysql
+
+[client]
+port=3307
+default-character-set=utf8mb4

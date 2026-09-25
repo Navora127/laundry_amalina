@@ -21,6 +21,8 @@
 /vendor
 /database/*.sqlite
 /database/*.sqlite-*
+/storage/mysql/
+/tools/mysql.ini
 Homestead.json
 Homestead.yaml
 Thumbs.db
