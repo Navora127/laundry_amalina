@@ -4,8 +4,8 @@
 
 @section('content')
 <div class="mb-8">
-    <p class="text-sm font-semibold text-brand-600">Selamat datang kembali</p>
-    <h1 class="mt-2 text-2xl font-bold tracking-tight text-slate-900">Masuk ke akun Anda</h1>
+    <p class="font-mono text-xs font-bold uppercase tracking-[0.2em] text-brand-600">Akses / 01</p>
+    <h1 class="mt-3 text-2xl font-bold tracking-tight text-slate-900">Masuk ke akun Anda</h1>
     <p class="mt-2 text-sm text-slate-500">Pantau laundry dan kelola pesanan dengan mudah.</p>
 </div>
 

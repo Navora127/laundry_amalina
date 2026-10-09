@@ -4,8 +4,8 @@
 
 @section('content')
 <div class="mb-8">
-    <p class="text-sm font-semibold text-brand-600">Mulai lebih mudah</p>
-    <h1 class="mt-2 text-2xl font-bold tracking-tight text-slate-900">Buat akun pelanggan</h1>
+    <p class="font-mono text-xs font-bold uppercase tracking-[0.2em] text-brand-600">Akses / 02</p>
+    <h1 class="mt-3 text-2xl font-bold tracking-tight text-slate-900">Buat akun pelanggan</h1>
     <p class="mt-2 text-sm text-slate-500">Satu akun untuk order, alamat, dan tracking laundry.</p>
 </div>
 
