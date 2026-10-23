@@ -16,6 +16,6 @@ class PublicPagesTest extends TestCase
 
     public function test_catalog_page_is_available(): void
     {
-        $this->get('/katalog')->assertOk()->assertSee('Katalog layanan');
+        $this->get('/katalog')->assertOk()->assertSee('Katalog Jasa Pelayanan');
     }
 }
