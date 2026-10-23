@@ -113,3 +113,29 @@ npm audit
 - Perform restore test and release runbook before go-live.
 
 Jangan mengubah `APP_DEBUG` menjadi `true` di production.
+
+## Screenshot
+
+### Halaman utama
+![Dashboard](docs/screenshot/dashboard.png.png)
+
+### Katalog layanan
+![Katalog layanan](docs/screenshot/katalog.png.png)
+
+### Pesanan admin
+![Pesanan admin](docs/screenshot/adm.png.png)
+
+### Keamanan
+![Antisipasi keamanan](docs/screenshot/antisipasi_keamanan.png.png)
+
+### Pendaftaran akun
+![Pendaftaran akun](docs/screenshot/daftar.png.png)
+
+### Login
+![Masuk akun](docs/screenshot/login.png.png)
+
+### Laporan
+![Laporan](docs/screenshot/lap.png.png)
+
+### Staff
+![Staff](docs/screenshot/staff.png.png)
