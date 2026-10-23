@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'Katalog layanan — LaundryKu')
+@section('title', 'Katalog Jasa Pelayanan — LaundryKu')
 
 @section('content')
 <section class="blueprint-grid border-b border-brand-100 bg-white">
     <div class="container-app py-12 sm:py-16">
-        <p class="eyebrow">Katalog layanan</p>
-        <h1 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Pilih layanan yang Anda butuhkan</h1>
+        <p class="eyebrow">Katalog Jasa Pelayanan</p>
+        <h1 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Pilih sesuai yang anda butuhkan</h1>
         <p class="mt-4 max-w-2xl text-slate-600">Semua harga dalam Rupiah. Estimasi durasi membantu Anda memilih layanan sesuai kebutuhan.</p>
     </div>
 </section>
